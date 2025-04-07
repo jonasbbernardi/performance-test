@@ -1,27 +1,22 @@
 
 # Introduction
 
-Project to test appfunction performances between nodejs and python.
-Also, another performance that can be tested is the mongodb find function.
+Project to simple test performances between different app urls.
 
 # Setup
 
 ```bash
+# Set env variables
+cp .env.example .env
 # Install
-npm i
+npm install
 # Run
-node index.js
+node src/index.js
 ```
 
-# Environment variables
+Set the apps and URLs in `index.js` like example.
 
-```bash
-APP1_URL # Url to app 1
-APP2_URL # Url to app 2
-APPN_URL # Url to app n
-```
-
-After set APPN_URL's, define in `index.js` app names and urls to hit.
+Number of requests of each iteraction and number of iteractions can be set on .env.
 
 # References
 
